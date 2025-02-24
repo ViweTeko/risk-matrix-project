@@ -4,7 +4,7 @@ document.getElementById('addRow').addEventListener('click', function() {
 
     const risk = newRow.insertCell(0);
     const riskTake = newRow.insertCell(1);
-    const risk2 = newRow.insertCell(2);
+    const riskImpact = newRow.insertCell(2);
     const deleteRisk = newRow.insertCell(3);
 
     risk.innerHTML = '<input type="text" placeholder="Enter risk">';
@@ -15,7 +15,7 @@ document.getElementById('addRow').addEventListener('click', function() {
             <option value="High">High</option>
         </select>
     `;
-    risk2.innerHTML = `
+    riskImpact.innerHTML = `
         <select>
             <option value="Low">Low</option>
             <option value="Medium">Medium</option>
