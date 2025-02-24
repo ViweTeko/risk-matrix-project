@@ -24,68 +24,81 @@ risk-matrix-project/
 
 ---
 
-Open the Project:
+## Setup Instructions
 
-Open the index.html file in your browser to view the application.
+### Prerequisites
+- A modern web browser (e.g., Chrome, Firefox, Edge).
+- (Optional) A code editor like [VS Code](https://code.visualstudio.com/).
 
-Run a Local Server (Optional):
+### Steps
+1. **Download or Clone the Project**:
+   - Download the project as a ZIP file and extract it, or clone the repository using Git:
+     ```bash
+     git clone https://github.com/your-username/risk-matrix-project.git
+     cd risk-matrix-project
+     ```
 
-If you're using VS Code, install the Live Server extension and click "Go Live" to serve the project locally.
+2. **Open the Project**:
+   - Open the `index.html` file in your browser to view the application.
 
-How to Use
-Add a Risk:
+3. **Run a Local Server (Optional)**:
+   - If you're using VS Code, install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and click "Go Live" to serve the project locally.
 
-Click the "Add Risk" button to add a new row to the matrix.
+---
 
-Fill in the risk description, likelihood, and impact using the input fields and dropdowns.
+## How to Use
+1. **Add a Risk**:
+   - Click the **"Add Risk"** button to add a new row to the matrix.
+   - Fill in the risk description, likelihood, and impact using the input fields and dropdowns.
 
-Delete a Risk:
+2. **Delete a Risk**:
+   - Click the **"Delete"** button in the row you want to remove.
 
-Click the "Delete" button in the row you want to remove.
+---
 
-Code Overview
-HTML (index.html)
-The main structure of the risk matrix is defined here.
+## Code Overview
 
-Links to the CSS and JavaScript files.
+### HTML (`index.html`)
+- The main structure of the risk matrix is defined here.
+- Links to the CSS and JavaScript files.
 
-CSS (css/styles.css)
-Styles for the table, buttons, inputs, and overall layout.
+### CSS (`css/styles.css`)
+- Styles for the table, buttons, inputs, and overall layout.
 
-JavaScript (js/script.js)
-Handles dynamic addition and deletion of rows.
+### JavaScript (`js/script.js`)
+- Handles dynamic addition and deletion of rows.
+- Adds event listeners for the **"Add Risk"** button and delete functionality.
 
-Adds event listeners for the "Add Risk" button and delete functionality.
+---
 
-Future Enhancements
-Save data to local storage for persistence.
+## Future Enhancements
+- Save data to **local storage** for persistence.
+- Add **validation** for input fields.
+- Integrate with a **backend** for data storage and retrieval.
+- Add a **risk scoring system** based on likelihood and impact.
 
-Add validation for input fields.
+---
 
-Integrate with a backend for data storage and retrieval.
-
-Add a risk scoring system based on likelihood and impact.
-
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a **pull request**.
 
-Fork the repository.
+---
 
-Create a new branch (git checkout -b feature/your-feature).
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-Commit your changes (git commit -m 'Add some feature').
+---
 
-Push to the branch (git push origin feature/your-feature).
+## Author
+[Viwe Teko](https://github.com/ViweTeko)
 
-Open a pull request.
+---
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author
-Viwe Teko
-
-Acknowledgments
-Inspired by risk management tools and matrices.
-
-Built with HTML, CSS, and JavaScript.
+## Acknowledgments
+- Inspired by risk management tools and matrices.
+- Built with **HTML**, **CSS**, and **JavaScript**.
